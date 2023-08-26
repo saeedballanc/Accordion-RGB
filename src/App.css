@@ -1,0 +1,87 @@
+ 
+ 
+
+  
+ *{
+
+  /* overflow: hidden; */
+}
+
+
+
+
+body{
+
+  height: 100vh;
+  background: black;
+}
+
+
+
+
+.gugugaga{
+
+  background-color: white;
+  width: 25px;
+  height: 90px;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 1rem;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  right: 287px;
+}
+
+
+
+.question{
+
+  position: relative;
+  right: -10px;
+  font-size: 24px;
+  z-index: -2;
+}
+
+
+
+
+
+ 
+.answer{
+
+  position: relative;
+  right: 50px;
+  font-size: 16px;
+}
+
+
+
+.contain{
+
+  position: relative;
+  display: inline-block;
+  top: 20vh;
+  margin-left: 60px;
+  margin-top: 10px;
+  position: relative;
+  left: 103px;
+  background-image: radial-gradient(
+
+     farthest-corner at 170px 90px,
+      #1414142f 20% , #42424246 100%
+  );
+
+  border-bottom: 2px solid rgba(252, 252, 252, 0.096);
+  border-top: 1px solid rgba(255, 255, 255, 0.041);
+  border-right: 2px solid rgba(255, 255, 255, 0.075);
+
+  user-select: none;
+  height: 90px;
+}
+
+
+
+.is-active{
+
+  height: 172px;
+}
